@@ -5,7 +5,7 @@ const route =express.Router();
 
 route.post("/book",createAnewBook);
 route.get("/books",getAllBooks);
-route.get("/book/:id",getOneBook);
+route.get("/books/:id",getOneBook);
 route.put("/books/:id",updaABook);
 route.delete("/books/:id",deleteABook)
 
